@@ -53,7 +53,7 @@ h1{
     padding: 100px;
 }
 
-img{
+.seahorse-img{
   width: 300px;
 }
 
@@ -85,4 +85,56 @@ h1{
   font-size: 48px;
   font-weight: 900;
 }
+
+.mission{
+  display: flex;
+  margin: -50px;
+}
+
+.mission-img{
+  width: 400px;
+}
+
+.mission-sub-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+h2,
+.mission-statement{
+  color: #1F2937;
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+h2{
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.team{
+  background-color: #E5E7EB;
+}
+
+.team-pics{
+  width: 200px;
+}
+
+.pics-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.pic-bio{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
 

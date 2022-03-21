@@ -1,9 +1,8 @@
 body{
   display: flex;
+  flex-direction: column;
   min-height: 100vh;
   margin: 0;
-  flex-direction: column;
-  min-width: 100vh
 }
 
 .content{
@@ -20,7 +19,8 @@ ul{
   list-style-type: none;
 }
 
-.header{
+.header,
+.footer{
   background-color: #1F2937;
   height: 60px;
   display: flex;
@@ -34,7 +34,6 @@ h1{
 
 .menu-header{
     display: flex;
-    padding: 0 100px;
     justify-content: space-between;
     gap: 10px;
 }
@@ -55,6 +54,8 @@ h1{
 
 .seahorse-img{
   width: 300px;
+  height: auto;  
+  
 }
 
 button{
@@ -89,6 +90,9 @@ h1{
 .mission{
   display: flex;
   margin: -50px;
+  padding: 0 100px;
+  justify-content: center;
+
 }
 
 .mission-img{
@@ -100,11 +104,15 @@ h1{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  flex: 1 1 auto;
+  width: 200px;
 }
 
 h2,
-.mission-statement{
+.mission-statement,
+.bio,
+.roadmap-desc,
+h3{
   color: #1F2937;
   font-family: Verdana, Geneva, Tahoma, sans-serif ;
 }
@@ -117,6 +125,7 @@ h2{
 
 .team{
   background-color: #E5E7EB;
+  padding: 40px;
 }
 
 .team-pics{
@@ -125,13 +134,44 @@ h2{
 
 .pics-container{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .pic-bio{
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 15px;
+}
+
+.roadmap-img{
+  width: 400px;
+  flex: 0 0 auto;
+}
+
+.roadmap{
+  padding: 100px;
+}
+
+.arrow-down{
+  width: 200px;
+}
+
+.roadmap-sub-container{
+  display: flex;
+  justify-content: center;
+}
+
+.roadmap-sub-left{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-text{
+  color: #E5E7EB ;
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
 }
 
 
